@@ -1,0 +1,248 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 960px;
+	background-color: lightgray;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	margin: auto;
+}
+
+ #header{
+ 	display: block;
+ 	width: 30%;
+ 	padding: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+#wrapper {
+	width: 960px;
+	border-bottom-width: 1px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #4aaaa5;
+	float: right;
+	padding: 18px;
+}
+
+div.h2 {
+	overflow: hidden;
+	text-align: right;
+}
+
+img {
+	float: left;
+	width: 20%;
+	padding: 5px;
+	border-top: 2px;
+}
+
+
+
+.left {
+	float: left;
+	display: block;
+	padding-left: 40px;
+	width: 650px;
+	height: auto;
+	overflow: hidden;
+	background-color: white;
+	border: 2px;
+	border-width: 1px;
+	overflow: auto;
+	clear: left;
+}
+
+p {
+	color: #777777;
+}
+
+.right {
+	float: right;
+	display: block;
+	background: white;
+	background-size: 30%;
+	width: 20%;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0;
+	position: absolute;
+	left: 878px;
+	top: 74px;
+}
+
+aside, h2 {
+	color: #4aaaa5;
+}
+
+.clear {
+	clear: both;
+}
+
+
+footer {
+	background-color: #666666;
+	position: absolute;
+	width: 960px;
+	padding: 10px;
+	margin-top: 10px;
+	border-top: 5px solid;
+	border-top-color: #4aaaa5;
+	text-align: center;
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#wrapper2 {
+	display: block;
+	width: 60%;
+	height: 397px;
+	background-color: white;
+	float: left;
+	border: 20px;
+	padding-top: 20px;
+	position: relative;
+	right: 288px;
+	top: 20px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+.right2 {
+	float: right;
+	display: block;
+	background: white;
+	background-size: 30%;
+	width: 20%;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 0;
+	position: absolute;
+	left: 878px;
+	top: 74px;
+}
+
+.portfolio {
+	color: #4aaaa5;
+	float: left;
+	width: 100%;
+}
+
+
+
+#wrapper3 {
+	display: block;
+	width: 60%;
+	height: 400px;
+	background-color: white;
+	float: left;
+	border: 20px;
+	padding-top: 20px;
+	right: 288px;
+	top: 20px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color: lightgray;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: yellow;
+	}
+	#header,
+	div.h2,
+	#wrapper,
+	#wrapper2,
+	.right,
+	.left
+	p,
+	footer	 {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+
+
+@media screen and (max-width: 640px) {
+	body {
+		background-color: lightgreen;
+	}
+
+	#header,
+	#wrapper,
+	#wrapper2,
+	div.h2 {
+		position: static;	
+	}
+	#wrapper,
+	p,
+	footer {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.h2 {
+		width: 10%;
+	}
+
+	.left,
+	img,
+	p {
+		width: 100%;
+		position: relative;
+	}
+	
+	.right {
+		width: 100%
+		padding: 0;
+		margin: 0;
+	}
+}
+
+
+
+
